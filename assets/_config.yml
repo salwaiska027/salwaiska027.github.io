@@ -13,3 +13,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed
