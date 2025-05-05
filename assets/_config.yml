@@ -1,4 +1,4 @@
-title: Salwa Iska
+title: Salwa
 description: Website pribadi Salwa Iska
 baseurl: "" 
 url: "https://salwaiska027.github.io"
@@ -6,7 +6,7 @@ url: "https://salwaiska027.github.io"
 theme: minima
 
 author:
-  name: Salwa Iska
+  name: Salwa
   email: salwalsm559@gmail.com
 
 plugins:
