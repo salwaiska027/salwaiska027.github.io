@@ -3,7 +3,7 @@ description: Website pribadi Salwa Iska
 baseurl: "" 
 url: "http://salwaiska027.github.io"
 
-theme: minima
+theme: jekyll-theme-primer
 
 author:
   name: Salwa
