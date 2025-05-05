@@ -1,0 +1,81 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Gaya umum */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navigasi */
+  nav {
+    background-color: #34495e;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    color: #ecf0f1;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  
+  nav a.current {
+    border-bottom: 2px solid #ecf0f1;
+  }
+  
+  /* Konten utama */
+  .main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Tabel */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+  }
+
+
+  @import "main";
