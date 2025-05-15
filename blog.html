@@ -1,16 +1,82 @@
 ---
 layout: default
-title: blog
+title: Blog
 ---
 
-<h1>blog</h1>
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fefefe;
+    color: #333;
+  }
+  .nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #555;
+  }
+  .nav .active {
+    background-color: #e0c097;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+  h1 {
+    font-size: 36px;
+    color: #222;
+    margin-top: 20px;
+  }
+  ul.blog-list {
+    list-style: none;
+    padding: 0;
+  }
+  ul.blog-list li {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-left: 6px solid #c79b63;
+    border-radius: 6px;
+  }
+  ul.blog-list li a {
+    font-weight: bold;
+    color: #0077cc;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  ul.blog-list li p {
+    margin: 5px 0 0;
+    font-size: 15px;
+  }
+</style>
 
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <p>{{ page.data | date_to_string }}</p>
-        <p>{{ post.excerpt }}</p>
-    </li>
-    {% endfor %}
+<div class="nav">
+  <a href="index.html">Home</a>
+  <a href="friends.html">Friends</a>
+  <a href="blog.html" class="active">Blog</a>
+</div>
+
+<h1>BLOG</h1>
+<ul class="blog-list">
+  <li>
+    <a href="javascript.html">JavaScript</a>
+    <p>Pengantar logika pemrograman interaktif di halaman web menggunakan JavaScript.</p>
+  </li>
+  <li>
+    <a href="linklist.html">Link dan List</a>
+    <p>Membuat tautan dan daftar yang terstruktur dengan HTML dasar.</p>
+  </li>
+  <li>
+    <a href="scss-css.html">SCSS dan CSS</a>
+    <p>Mengenal SCSS sebagai versi modern dari CSS dengan fitur variabel dan nesting.</p>
+  </li>
+  <li>
+    <a href="jekyll-ruby.html">Jekyll dan Ruby</a>
+    <p>Menjelajahi bagaimana Jekyll memanfaatkan Ruby untuk membuat blog statis.</p>
+  </li>
+  <li>
+    <a href="html.html">HTML</a>
+    <p>Struktur dasar halaman web yang terdiri dari elemen-elemen penting.</p>
+  </li>
+  <li>
+    <a href="git.html">GIT</a>
+    <p>Alat kontrol versi yang digunakan untuk mengelola dan melacak perubahan kode.</p>
+  </li>
 </ul>
