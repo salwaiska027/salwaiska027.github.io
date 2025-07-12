@@ -1,0 +1,15 @@
+title: Salwa
+description: Website pribadi Salwa Iska
+baseurl: "" 
+url: "https://salwaiska027.github.io"
+
+theme: minima
+
+author:
+  name: Salwa
+  email: salwalsm559@gmail.com
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
